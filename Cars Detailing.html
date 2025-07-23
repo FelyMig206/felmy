@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cars detailing Company</title>
+  <style>
+    * {box-sizing: border-box;
+      margin: 2;
+      padding: 0;}
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #888;
+      font-size: 18px;
+    }
+
+    #buscador {
+      display: block;
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px 30px;
+      font-size: 16px;
+      border: 0px solid #ccc;
+      border-radius: 30px;
+      outline: none;
+    }
+
+   .contenedor-productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 100px;
+    }
+
+    .producto:hover {
+      transform: translateY(-5px);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .producto-content {
+      padding: 15px;
+    }
+
+    .producto h3 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: #666;
+    }
+
+    .producto p {
+      font-size: 20px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .precio {
+      font-size: 18px;
+      color: #e91e63;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <h1> Cars detailing</h1>   <h1>El Auto de tu Sueños</h1>
+  </header>
+
+  <input type="text" id="buscador" placeholder=" Buscar por nombre">
+
+  <div class="contenedor-productos" id="productos">
+
+    <div class="producto">
+      <img src="hilux.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\hilux.jpg">
+      <div class="producto-content">
+        <h3> HIlux 3.0</h3>
+        <p>Ideal para el uso diario. Comodidad y para rutas extremas.</p>
+        <p class="precio">Q400,570.00</p>
+      </div>
+    </div>
+    <div class="producto">
+      <img src="Fortuner.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\Fortuner.jpg">
+      <div class="producto-content">
+        <h3> Fortuner</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <p class="precio">Q382,990.00</p>
+      </div>
+    </div>
+		<div class="producto">
+      <img src="ferrari.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\ferrari.jpg">
+      <div class="producto-content">
+        <h3> Ferrari</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q1,950,00.00</p>
+      </div>
+    </div>
+		<div class="producto">
+      <img src="AMG.webp" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\AMG.webp">
+      <div class="producto-content">
+        <h3> AMG</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q3,456,245.00</p>
+      </div>
+    </div>
+		<div class="producto">
+      <img src="supra.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\supra.jpg">
+      <div class="producto-content">
+        <h3> Supra</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q483,00.00</p>
+      </div>
+    </div>
+	  <div class="producto">
+      <img src="aston martin.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\aston martin.jpg">
+      <div class="producto-content">
+        <h3> Aston Martin</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q1,170,00.00</p>
+      </div>
+    </div>
+	  <div class="producto">
+      <img src="porche.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\porche.jpg">
+      <div class="producto-content">
+        <h3> Porche</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q465,465.00</p>
+      </div>
+    </div>
+	  <div class="producto">
+      <img src="bugatti.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\bugatti.jpg">
+      <div class="producto-content">
+        <h3> bugatti/h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q900,000.00</p>
+      </div>
+    </div>	
+      <div class="producto">
+      <img src="Toyota RAV4.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\Toyota RAV4.jpg">
+      <div class="producto-content">
+        <h3> Toyota RAV4</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q501,509.00</p>
+      </div>
+    </div>	
+       <div class="producto">
+      <img src="Land Crusier Prado.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\Land Crusier Prado.jpg">
+      <div class="producto-content">
+        <h3> Land Crusier Prado</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q600,509.00</p>
+      </div>
+    </div>	
+ <div class="producto">
+      <img src="Ford Raptor.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\Ford Raptor.jpg">
+      <div class="producto-content">
+        <h3> Ford Raptor</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q409,509.00</p>
+      </div>
+    </div>	
+<div class="producto">
+      <img src="jeep.jpg" alt="C:\Users\HP COMPANY\Desktop\Nueva carpeta (2)\jeep.jpg">
+      <div class="producto-content">
+        <h3> jeep</h3>
+        <p> Comodidad para rutas extremas.</p>
+        <pclass="precio">Q500,500.00</p>
+      </div>
+    </div>		
+	
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
